@@ -3,12 +3,13 @@
 
   background-color: lightblue;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 20px;*/
 h1{
+  padding-top: 20px;
   text-align: center;
-} */
+}
 img{
-  padding-left: 200px;
+  /* padding-left: 150px; */
   padding-top: 75px;
 }
 i{
@@ -17,4 +18,22 @@ i{
 }
 button{
   collapse;
+}
+.col-md-12 h1{
+  padding-top: 500px;
+}
+p{
+  padding-top: 20px;
+  font-size: 18px;
+}
+h2{
+  padding-top: 500px;
+  font-size: 36px;
+  text-align: center;
+}
+h3{
+  padding-top: 500px;
+  padding-bottom: 300px;
+  font-size: 36px;
+  text-align: center;
 }
