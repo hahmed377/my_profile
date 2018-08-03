@@ -20,20 +20,27 @@ button{
   collapse;
 }
 .col-md-12 h1{
-  padding-top: 500px;
+  padding-top: 100px;
 }
 p{
   padding-top: 20px;
   font-size: 18px;
 }
 h2{
-  padding-top: 500px;
+  padding-top: 100px;
   font-size: 36px;
   text-align: center;
 }
 h3{
-  padding-top: 500px;
-  padding-bottom: 300px;
+  padding-top: 200px;
+  /* padding-bottom: 300px; */
   font-size: 36px;
   text-align: center;
+}
+h4{
+  padding-top: 50px;
+  text-align: center;
+}
+.github{
+  padding-left: 50px;
 }
