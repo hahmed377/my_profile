@@ -8,9 +8,10 @@ h1{
   text-align: center;
   color: white;
 }
-img{
+.phoneImage{
   /* padding-left: 150px; */
   padding-top: 75px;
+
 }
 i{
   padding-left: 50px;
