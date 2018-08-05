@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Hanad's Profile</title>
   </head>
-
-  <body>
-
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <!-- <div class="collapse navbar-collapse navHeaderCollapse"> -->
-        <button class = "navbar-toggle" data-toggle = "collapse" data-target = "navHeaderCollapse">
+    <body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+        <a href="#" class = navbar-static-top></a>
+        <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
           <span class = "icon-bar"></span>
           <span class = "icon-bar"></span>
           <span class = "icon-bar"></span>
         </button>
+        <div class="collapse navbar-collapse navHeaderCollapse">
         <div class="navbar-header">
           <i class="fas fa-search"></i>
           <a class="navbar-brand" href="#">Hanad's Portfolio</a>
@@ -36,71 +36,118 @@
           <a id= "nav"></a>
           <li><a href="#Contact Me">Contact</a></li>
         </ul>
+        </div>
       </div>
-    </div>
     </nav>
-
-
-
-
-    <!-- <main class="container-fluid">
-        <div class="container">
-          <a href="#" class = "navbar-brand">Tech site</a>
-            <ul class= "nav navbar-nav navbar-right">
-              <li><a href = "#">About Me</a></li>
-            </ul>
-          </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 visible-xs visible-sm">
+        <img class= "phoneImage"
+        <img src="images/Sparta2.png" alt="IPhone Image">
         </div>
-
-      </div> -->
-      <!-- <div class="nav">
-        <div class="nav col-md-7">
-        </div>
-
-          <div class="col-md-1">
-            <a href="About Me">About Me</a>
-          </div>
-          <div class="col-md-1">
-            <a href="Portfolio">Portfolio</a>
-          </div>
-          <div class="col-md-2">
-            <a href="Technical Experience">Technical Experience</a>
-          </div>
-          <div class="col-md-1">
-            <a href="Contact">Contact</a>
-
-          </div>
-
-
-      </div> -->
-
-
-        <div class="col-md-8 ">
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 ">
           <a id= "About Me"></a>
           <h1>About me</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Hanad is a driven computer science graduate specializing in software engineering. He is an individual who understands and shows the willingness to work hard. During his time at university, Hanad was balancing working for sports direct while studying which showed that he was capable of managing his time well, organised as well as self-motivated. As a result, he became a floor supervisor for a year after demonstrating intuitive leadership skills and having a positive attitude while motivating others to get the work done. Ultimately, he is confident and enthusiastic that the skills he has developed in training will make him an excellent member of your team. </p>
         </div>
-          <div class="col-sm-4">
-            <img class= "phoneImage"
-              <img src="Sparta.png" alt="IPhone Image">
-          <p></p>
+        <div class="col-xs-12 col-sm-6 col-md-4 hidden-xs hidden-sm">
+          <img class= "phoneImage"
+          <img src="images/Sparta2.png" alt="IPhone Image">
         </div>
+      </div>
+      <div class="row">
         <div class="col-md-12">
           <a id= "Portfolio"></a>
           <h1>Portfolio</h1>
-
+          <div class="col-md-4">
+            <h4>Penetration Testing</h4>
+            <p>I performed a penetration test against a target system. I was assigned a target IP address where i had to find any vulneralibities and try to exploit the weakness. When performing the pen test i had found four different vulneralibities. The first one was apache HTTP after running nmap i had found that the state of port 80 was open. The second exploit which i had found was becoming root, i had done this by an interesting script which i had found online which would allow me to become root inside a directory which would give me the power to delete and replace any files. The next vulneralibity was using brute force medusa to gain access to the port 3306. The last one was a denial of service using slow loris, this would allow the a machine to take down a web server of another machine with minimum bandwidth.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>Preschool quiz app</h4>
+            <p> I developed a Preschool quiz app for kids on IOS. The aim of the app was to teach the children how to add up two numbers. The aim of the design was to add cheerful background and merry colours to appeal to my target audience which were presschool kids. A feature which i included was sound, By adding sound the user would know if their answer was right or wrong and if the answer was wrong an incorrect clip would play and the user would be unable to move on from that page until the right answer was selected. The application I created was fully accessible on different mobile platforms. By keeping it efficient the quiz application did exactly what was expected and that was to help children learn additional sums and making it fun yet competitive.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>Project 3</h4>
+            <p> During my university days i had created a cryto analysis learning application for kids where it teach children the different encryption algorthim such as AES, DES and blowfish and the code they would need to type in to encrypt and decrypt certain text. Once they had completed two different tutorials they would receive an email congratulating them and give them a certificate which would say they have completed level one and level two of the encryption tutorials.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 visible-md visible-lg">
+            <h4>Autonomous Initio car</h4>
+            <p class = "project1"> A project which i did during university was that i had to write code for an initio car so that it can at Autonomously. I had to program the car so it would look around using its camera to try and find a red blob. I also had to make sure that the also used it other sensors to be more aware of it surroundings. By using real time assurance it would mean that the initio car would behave like a real car as if it was driving and a obstacle comes in the way the car would come to an immediate halt. The real time behaviour i had to priorities was the speed of the car. I had to make sure that the car wasnt moving too slow yet moving too fast. I overcame  this problem by putting an average speed that the initio car would move at and also putting delays in every second to make sure that the car had enough time to evaluate its environment and then move off again. I decided to put delays as it would be better as the car is very slow at processing the code and i had to make sure that the car wouldnt keep on driving.
+            </p>
+          </div>
+          <div class="col-md-4 visible-md visible-lg">
+            <h4>Building a game with Javascript</h4>
+            <p>
+            </p>
+          </div>
+          <div class="col-md-4 visible-md visible-lg">
+            <h4>Booking system for Sparta global</h4>
+            <p>.</p>
+          </div>
+        </div>
         </div>
         <div class="col-md-12">
           <a id= "Technical Skills"></a>
           <h2>Technical Skills</h2>
-
+          <div class="row">
+            <div class="col-md-4">
+              <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Xcode</li>
+                <li>HTML</li>
+              </ul>
+            </div>
+            <div class="col-md-4 visible-md visible-lg">
+              <ul>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+                <li>C</li>
+              </ul>
+            </div>
+            <div class="col-md-4 visible-md visible-lg">
+              <ul>
+                <li>C++</li>
+                <li>jquery</li>
+                <li>Ruby on rails</li>
+                <li>Kali</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="col-md-12">
           <a id= "Contact Me"></a>
           <h3 >Contact Me</h3>
-
+          <div class="row center">
+            <div class="col-xs-4">
+              <a href="https://github.com/hahmed377">
+              <i class="fab fa-github center"></i>
+              <h5 class="visible-md visible-lg">Github</h5>
+              </a>
+            </div>
+            <div class="col-xs-4">
+              <a href="https://www.linkedin.com/in/hanad-ahmed-4901aa169/">
+                <i class="fab fa-linkedin"></i>
+                <h5 class="visible-md visible-lg">Linkedin</h5>
+              </a>
+            </div>
+              <div class="col-xs-4">
+                <a href="mailto:hahmed@spartaglobal.com">
+                <i class="far fa-envelope"></i>
+                <h5 class="visible-md visible-lg">E-mail</h5>
+                </a>
+            </div>
+          </div>
         </div>
-
+      </div>
     </main>
   </body>
 </html>
