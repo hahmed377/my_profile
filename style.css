@@ -28,7 +28,7 @@ button{
   color: white;
 }
 p{
-  /* padding-left: 50px; */
+padding-left: 50px;
   padding-top: 20px;
   font-size: 18px;
   color: white;
@@ -67,4 +67,11 @@ li {
   color: white;
   list-style-type: none;
   font-size: 26px;
+}
+.project1 p{
+  padding-left: 50px;
+}
+h5{
+  color: white;
+  font-size: 20px;
 }
